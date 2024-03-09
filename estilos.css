@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Manrope, sans-serif;
+    color: #200020;
+    background-color: #ece7f5;
+
+}
+#SeccionAzul{
+    margin: 40px 0 20px 0;
+
+}
+
+#ContenidoAzul {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Comunidadinfo{
+    width: 30%;
+    float: left;
+    
+}
+
+.Comunidadinfo h1{    
+    margin-bottom: 0;
+    font-size: 1.063rem;
+    line-height: 1.25rem;
+}
+
+.Comunidadinfo h2{
+    color: #200020;
+    margin-bottom: 0;
+    font-size: 1.063rem;
+    line-height: 1.25rem;
+    font-weight: 100;
+    
+}
+
+.Comunidadinfo a{
+    color: white;
+    width: auto;
+    background-color: #da0081;
+    text-align: center;
+    -webkit-text-fill-color: inherit;
+    background-clip: border-box;
+    border-radius: 4px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 16px 32px;
+    font-family: Manrope, sans-serif;
+    font-size: 1.063rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-decoration: none;
+    display: block;
+    margin-top: 60px;
+}
+
+.Comunidadinfo a:hover{
+    background-color: #f1bfda;
+    color: #da0081;
+
+}
+.barrasazules{
+    float: left;
+}
+.barrasazules ul{
+    grid-column-gap: 4px;
+    grid-row-gap: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    display: flex;
+}
+
+.barrasazul{
+    background-color: white;
+    width: 760px;    
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 1px 0 20px rgba(0,0,0,.1);
+    list-style: none;
+    max-width: 100%;
+    display: inline-block;
+
+}
+.barrasazul a{
+    text-decoration: none;
+
+}
+.barrasazul p{
+    line-height: 20px;
+    color: #200020;
+    margin: 0;
+    font-size: 1.063rem;
+    line-height: 1.25rem;
+
+}
+.fechaazul{
+
+}
